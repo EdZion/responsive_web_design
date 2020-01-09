@@ -2,10 +2,29 @@ body {
     width: auto;
     background-color: blue;
 }
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.nav-item{
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+}
+.nav-item:hover{
+    color: darkkhaki;
+}
+
 @media only screen and (max-width: 600px) {
     body {
         width: auto;
         background-color: pink;
+    }
+    .nav-item{
+        color: black;
     }
 }
 /* For mobile phones: */
@@ -26,6 +45,7 @@ body {
     body {
         width: auto;
         background-color: green;
+        color:white;
     }
 }
 
